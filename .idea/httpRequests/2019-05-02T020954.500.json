@@ -1,0 +1,392 @@
+{
+  "message": "SQLSTATE[HY000]: General error: 1364 Field 'user_id' doesn't have a default value (SQL: insert into `tasks` (`updated_at`, `created_at`) values (2019-05-02 11:09:53, 2019-05-02 11:09:53))",
+  "exception": "Illuminate\\Database\\QueryException",
+  "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php",
+  "line": 664,
+  "trace": [
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php",
+      "line": 624,
+      "function": "runQueryCallback",
+      "class": "Illuminate\\Database\\Connection",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php",
+      "line": 459,
+      "function": "run",
+      "class": "Illuminate\\Database\\Connection",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php",
+      "line": 411,
+      "function": "statement",
+      "class": "Illuminate\\Database\\Connection",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Processors\\Processor.php",
+      "line": 32,
+      "function": "insert",
+      "class": "Illuminate\\Database\\Connection",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php",
+      "line": 2657,
+      "function": "processInsertGetId",
+      "class": "Illuminate\\Database\\Query\\Processors\\Processor",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php",
+      "line": 1347,
+      "function": "insertGetId",
+      "class": "Illuminate\\Database\\Query\\Builder",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php",
+      "line": 835,
+      "function": "__call",
+      "class": "Illuminate\\Database\\Eloquent\\Builder",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php",
+      "line": 800,
+      "function": "insertAndSetId",
+      "class": "Illuminate\\Database\\Eloquent\\Model",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php",
+      "line": 663,
+      "function": "performInsert",
+      "class": "Illuminate\\Database\\Eloquent\\Model",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php",
+      "line": 793,
+      "function": "save",
+      "class": "Illuminate\\Database\\Eloquent\\Model",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php",
+      "line": 1123,
+      "function": "Illuminate\\Database\\Eloquent\\{closure}",
+      "class": "Illuminate\\Database\\Eloquent\\Builder",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php",
+      "line": 794,
+      "function": "tap"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Traits\\ForwardsCalls.php",
+      "line": 23,
+      "function": "create",
+      "class": "Illuminate\\Database\\Eloquent\\Builder",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php",
+      "line": 1614,
+      "function": "forwardCallTo",
+      "class": "Illuminate\\Database\\Eloquent\\Model",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Model.php",
+      "line": 1626,
+      "function": "__call",
+      "class": "Illuminate\\Database\\Eloquent\\Model",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\app\\Http\\Controllers\\TaskController.php",
+      "line": 22,
+      "function": "__callStatic",
+      "class": "Illuminate\\Database\\Eloquent\\Model",
+      "type": "::"
+    },
+    {
+      "function": "store",
+      "class": "App\\Http\\Controllers\\TaskController",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php",
+      "line": 54,
+      "function": "call_user_func_array"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php",
+      "line": 45,
+      "function": "callAction",
+      "class": "Illuminate\\Routing\\Controller",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php",
+      "line": 219,
+      "function": "dispatch",
+      "class": "Illuminate\\Routing\\ControllerDispatcher",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php",
+      "line": 176,
+      "function": "runController",
+      "class": "Illuminate\\Routing\\Route",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+      "line": 680,
+      "function": "run",
+      "class": "Illuminate\\Routing\\Route",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
+      "line": 30,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php",
+      "line": 41,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+      "line": 163,
+      "function": "handle",
+      "class": "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
+      "line": 58,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+      "line": 163,
+      "function": "handle",
+      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+      "line": 104,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+      "line": 682,
+      "function": "then",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+      "line": 657,
+      "function": "runRouteWithinStack",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+      "line": 623,
+      "function": "runRoute",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+      "line": 612,
+      "function": "dispatchToRoute",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+      "line": 176,
+      "function": "dispatch",
+      "class": "Illuminate\\Routing\\Router",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
+      "line": 30,
+      "function": "Illuminate\\Foundation\\Http\\{closure}",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\fideloper\\proxy\\src\\TrustProxies.php",
+      "line": 57,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+      "line": 163,
+      "function": "handle",
+      "class": "Fideloper\\Proxy\\TrustProxies",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
+      "line": 21,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+      "line": 163,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
+      "line": 21,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+      "line": 163,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php",
+      "line": 27,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+      "line": 163,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php",
+      "line": 62,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+      "line": 163,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php",
+      "line": 53,
+      "function": "Illuminate\\Pipeline\\{closure}",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+      "line": 104,
+      "function": "Illuminate\\Routing\\{closure}",
+      "class": "Illuminate\\Routing\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+      "line": 151,
+      "function": "then",
+      "class": "Illuminate\\Pipeline\\Pipeline",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+      "line": 116,
+      "function": "sendRequestThroughRouter",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\public\\index.php",
+      "line": 55,
+      "function": "handle",
+      "class": "Illuminate\\Foundation\\Http\\Kernel",
+      "type": "->"
+    },
+    {
+      "file": "C:\\xampp\\htdocs\\blog\\server.php",
+      "line": 21,
+      "function": "require_once"
+    }
+  ]
+}

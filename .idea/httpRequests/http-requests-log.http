@@ -1,0 +1,328 @@
+GET http://127.0.0.1:8000/api/tasks
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer MrPtPMZdB7bcrIAtXXtdaJXjPrVkOeESz44TV5L5vfDFU3pxC4VdNiShpYZV
+
+<> 2019-05-03T112144.401.json
+
+###
+
+GET http://127.0.0.1:8000/api/tasks
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer MrPtPMZdB7bcrIAtXXtdaJXjPrVkOeESz44TV5L5vfDFU3pxC4VdNiShpYZV
+
+<> 2019-05-03T112034.401.json
+
+###
+
+GET http://127.0.0.1:8000/api/tasks
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer MrPtPMZdB7bcrIAtXXtdaJXjPrVkOeESz44TV5L5vfDFU3pxC4VdNiShpYZV
+
+<> 2019-05-03T112032.401.json
+
+###
+
+GET http://127.0.0.1:8000/api/tasks
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer kyGrUm9SkFkUeNKXJp0TIfE4kuVGaaaWE91cue7ofjciFrgjrxbcq2AGNQAL
+
+<> 2019-05-03T111907.401.json
+
+###
+
+GET http://127.0.0.1:8000/tasks
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer kyGrUm9SkFkUeNKXJp0TIfE4kuVGaaaWE91cue7ofjciFrgjrxbcq2AGNQAL
+
+<> 2019-05-03T111855.404.json
+
+###
+
+POST http://127.0.0.1:8000/tasks
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer kyGrUm9SkFkUeNKXJp0TIfE4kuVGaaaWE91cue7ofjciFrgjrxbcq2AGNQAL
+
+<> 2019-05-03T111848.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/tasks
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer kyGrUm9SkFkUeNKXJp0TIfE4kuVGaaaWE91cue7ofjciFrgjrxbcq2AGNQAL
+
+<> 2019-05-03T111728.401.json
+
+###
+
+GET http://127.0.0.1:8000/api/tasks
+Accept: application/json
+Cache-Control: no-cache
+Content-Type: application/json
+Authorization: Bearer kyGrUm9SkFkUeNKXJp0TIfE4kuVGaaaWE91cue7ofjciFrgjrxbcq2AGNQAL
+
+<> 2019-05-03T111714.401.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+{"name": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T044225.422.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+{"name": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T044207.500.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+{"name": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T032622.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+{"name": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T032615.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+{"name": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T032611.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+{"name": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T032452.404.json
+
+###
+
+GET http://127.0.0.1:8000/api/tasks
+Accept: application/json
+Cache-Control: no-cache
+
+{"name": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T032436.200.json
+
+###
+
+GET http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+{"name": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T032424.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+{"name": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T032408.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+{"name": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T031543.422.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+{"name": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T031451.422.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+{"name": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T031056.422.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+{"username": "root", "email": "root@gmail.com", "password": "123456"}
+
+<> 2019-05-02T031039.422.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+gbcg
+
+<> 2019-05-02T022033.422.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+gbcg
+
+<> 2019-05-02T022026.404.json
+
+###
+
+POST http://127.0.0.1:8000/register
+Accept: application/json
+Cache-Control: no-cache
+
+gbcg
+
+<> 2019-05-02T022001.404.json
+
+###
+
+POST http://127.0.0.1:8000/api/register
+Accept: application/json
+Cache-Control: no-cache
+
+gbcg
+
+<> 2019-05-02T021409.422.json
+
+###
+
+POST http://127.0.0.1:8000/api/user
+Accept: application/json
+Cache-Control: no-cache
+
+gbcg
+
+<> 2019-05-02T021119.405.json
+
+###
+
+GET http://127.0.0.1:8000/api/user
+Accept: application/json
+Cache-Control: no-cache
+
+gbcg
+
+<> 2019-05-02T021105.401.json
+
+###
+
+POST http://127.0.0.1:8000/api/tasks
+Accept: application/json
+Cache-Control: no-cache
+
+gbcg
+
+<> 2019-05-02T020954.500.json
+
+###
+
+GET http://127.0.0.1:8000/api/tasks
+Accept: application/json
+Cache-Control: no-cache
+
+gbcg
+
+<> 2019-05-02T020933.200.json
+
+###
+
+GET http://127.0.0.1:8000/tasks
+Accept: application/json
+Cache-Control: no-cache
+
+gbcg
+
+<> 2019-05-02T020920.404.json
+
+###
+
+GET http://127.0.0.1:8000/tasks
+Accept: application/json
+Cache-Control: no-cache
+
+gbcg
+
+<> 2019-05-02T014753.404.json
+
+###
+
+POST http://127.0.0.1:8000/register
+Accept: application/json
+Cache-Control: no-cache
+
+gbcg
+
+<> 2019-05-02T014740.404.json
+
+###
+
+POST http://127.0.0.1:8000/register
+Accept: application/json
+Cache-Control: no-cache
+
+<> 2019-05-02T014603.404.json
+
+###
+
